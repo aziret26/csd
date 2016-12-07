@@ -1,0 +1,46 @@
+body {
+   height: auto;
+   background-color: azure;
+}
+.csd-text{
+   background-color: aliceblue;
+   margin-top: -20px;
+   text-align: center;
+   height: 50px;
+   transition: all 0.4s ease;
+}
+.csd-text-hidden{
+   margin-top: -20px;
+   text-align: center;
+   height: 0px;
+   transition: all 0.4s ease;
+}
+.csd-text-hidden h1{
+   height: 0px;
+   visibility: hidden;
+}
+.csd-text h1{
+   font-family: fantasy;
+   line-height: 50px;
+   color: darkcyan;
+   transition: all 0.4s ease;
+}
+.footer {
+   position: sticky;
+   height:50px;
+   background-color: dodgerblue;
+   bottom:0px;
+   left:0px;
+   right:0px;
+   margin-bottom:0px;
+}
+.footer-text {
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+a.spoiler:after {
+   content: "[-]";
+}
+a.spoiler.collapsed:after {
+   content: "[+]";
+}
