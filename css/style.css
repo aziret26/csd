@@ -2,6 +2,9 @@ body {
    height: auto;
    background-color: azure;
 }
+div {
+   display: block;
+}
 .csd-text{
    background-color: aliceblue;
    margin-top: -20px;
@@ -25,6 +28,18 @@ body {
    color: darkcyan;
    transition: all 0.4s ease;
 }
+.title-text{
+   text-align: center;
+}
+.content{
+   margin-top: 200px;
+}
+.row-content {
+   margin-bottom: 50px;
+}
+.par-content {
+   margin-bottom: 150px;
+}
 .footer {
    position: sticky;
    height:50px;
@@ -37,10 +52,4 @@ body {
 .footer-text {
    padding-top: 15px;
    padding-bottom: 15px;
-}
-a.spoiler:after {
-   content: "[-]";
-}
-a.spoiler.collapsed:after {
-   content: "[+]";
 }
