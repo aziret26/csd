@@ -26,6 +26,8 @@
 		if(getCookie("lang")=="ru"){
 			window.location.assign("ru/index.html");
 		}else{
+			if(getCookie("lang")=="")
+				document.cookie = "lang=en;path=/"
 			window.location.assign("en/index.html");
 		}
 	</script>
