@@ -135,41 +135,43 @@
                  </ul>
                  <div class="services">
                     <form lang="en" action="" class="navbar-right">
-                       <a href="#" class="lang-btn">EN</a>
-                       <a href="#" class="lang-btn">RU</a>
+                       <a href="index.html" class="lang-btn">EN</a>
+                       <a href="../ru/index.html" class="lang-btn">RU</a>
                     </form>
                  </div>
              </div>
          </div>
      </div>
      
-     <div id="carousel" class="carousel slide">
-        <!--Индикаторы слайдов-->
-        <ol class="carousel-indicators">
-           <li class="active" data-target="#carousel" data-slide-to="0"></li>
-           <li data-target="#carousel" data-slide-to="1"></li>
-           <li data-target="#carousel" data-slide-to="2"></li>
-        </ol><br><br><br><br><br>
-        <!--Слайды-->
-        <div class="carousel-inner">
-           <div class="item active">
-              <img src="images/Image3.jpg" alt="">
+     <div class="container">
+        <div id="carousel" class="carousel slide con-car">
+           <!--Индикаторы слайдов-->
+           <ol class="carousel-indicators">
+              <li class="active" data-target="#carousel" data-slide-to="0"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel" data-slide-to="2"></li>
+           </ol>
+           <!--Слайды-->
+           <div class="carousel-inner">
+              <div class="item active">
+                 <img src="images/Image3.jpg" alt="">
+              </div>
+              <div class="item">
+                 <img src="images/Image2.jpg" alt="">
+              </div>
+              <div class="item">
+                 <img src="images/Image4.jpg" alt="">
+              </div>
            </div>
-           <div class="item">
-              <img src="images/Image2.jpg" alt="">
-           </div>
-           <div class="item">
-              <img src="images/Image4.jpg" alt="">
-           </div>
+
+           <!--Стрелки переключения слайдов-->
+           <a href="#carousel" class="left carousel-control" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+           </a>
+           <a href="#carousel" class="right carousel-control" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+           </a>
         </div>
-        
-        <!--Стрелки переключения слайдов-->
-        <a href="#carousel" class="left carousel-control" data-slide="prev">
-           <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a href="#carousel" class="right carousel-control" data-slide="next">
-           <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
      </div>
      
      <div class="container content">
@@ -198,12 +200,9 @@
      <footer class="footer">
         <div class="container">
            <div class="row">
-              <div class="col-xs-6 col-sm-6 col-md col-lg-6">
-                 <p class="footer-text"><i class="fa fa-copyright" aria-hidden="true"></i> 2016 CS Dept. IAAU</p>
-              </div>
-              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                 <p class="footer-text text-right"> Developed & Designed by Com14-b</p>
-              </div>
+              <span>
+                 <p class="footer-text text-center"><i class="fa fa-copyright" aria-hidden="true"></i> International Ataturk Alatoo University</p>
+              </span>
            </div>
         </div>
      </footer>
