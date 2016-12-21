@@ -1,8 +1,9 @@
 
 function changeLang(lang){
 	var arr = document.location.pathname.split("/");
-	arr[2] = lang;
-	document.cookie = "lang=ru;path=/";
+	curr = lang == "ru" ? "en" : "ru";
+	arr[findStr(arr,curr)] = lang;
+	document.cookie = "lang="+lang+";path=/";
 	window.location.assign(pathToString(arr));
 
 }
@@ -16,4 +17,9 @@ function pathToString(path){
 		}
 	}
 	return p;
+}
+function findStr(arr,str){
+	for(i = 0;i < arr.length;i++)
+		if(arr[i] == str)
+			return i;
 }
