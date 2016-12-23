@@ -12,7 +12,7 @@ div {
    background-color: #2a415f;
    margin-top: -20px;
    text-align: center;
-   height: 50px;
+   height: 120px;
    transition: all 0.4s ease;
 }
 .csd-text-hidden{
@@ -53,8 +53,12 @@ div {
    color: aliceblue;
    text-decoration: none;
 }
+.logo {
+   margin-top: 25px;
+   margin-left: -40px;
+}
 .con-car {
-   margin-top: 115px;
+   margin-top: 160px;
 }
 .content{
    margin-top: 200px;
@@ -81,4 +85,5 @@ div {
 }
 .con-tab {
     padding-top: 120px;
+    margin-top: 50px;
 }
