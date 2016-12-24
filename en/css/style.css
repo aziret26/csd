@@ -16,9 +16,9 @@ div {
    transition: all 0.4s ease;
 }
 .csd-text-hidden{
-   margin-top: -20px;
+   margin-top: -120px;
    text-align: center;
-   height: 0px;
+   height: 120px;
    transition: all 0.4s ease;
 }
 .csd-text-hidden h1{
