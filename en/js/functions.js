@@ -5,7 +5,7 @@ function changeLang(lang){
 	arr[findStr(arr,curr)] = lang;
 
 	var date = new Date(new Date().getTime() + 60 * 1000);  
-	document.cookie = "lang="+lang+";path=/;expires="date;
+	document.cookie = "lang="+lang+";path=/;expires="+date;
 	window.location.assign(pathToString(arr));
 
 }

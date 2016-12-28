@@ -28,7 +28,7 @@
 		}else{
 			if(getCookie("lang")==""){
 				var date = new Date(new Date().getTime() + 60 * 1000);  
-				document.cookie = "lang=en;path=/;expires="date;
+				document.cookie = "lang=en;path=/;expires="+date;
 			}
 			window.location.assign("en/index.html");
 		}
