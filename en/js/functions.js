@@ -3,7 +3,9 @@ function changeLang(lang){
 	var arr = document.location.pathname.split("/");
 	curr = lang == "ru" ? "en" : "ru";
 	arr[findStr(arr,curr)] = lang;
-	document.cookie = "lang="+lang+";path=/";
+
+	var date = new Date(new Date().getTime() + 60 * 1000);  
+	document.cookie = "lang="+lang+";path=/;expires="date;
 	window.location.assign(pathToString(arr));
 
 }
