@@ -60,8 +60,13 @@ div {
 .con-car {
    margin-top: 160px;
 }
+<<<<<<< HEAD
 .content {
    margin-top: 150px;
+=======
+.content{
+   margin-top: 50px;
+>>>>>>> 1abc7259cfbe5bd211ade20fee94bc7963111dd2
 }
 .row-content {
    margin-bottom: 50px;
