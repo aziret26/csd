@@ -7,7 +7,6 @@ function changeLang(lang){
 	var date = new Date(new Date().getTime() + 60 * 1000);  
 	document.cookie = "lang="+lang+";path=/;expires="+date;
 	window.location.assign(pathToString(arr));
-
 }
 
 function pathToString(path){

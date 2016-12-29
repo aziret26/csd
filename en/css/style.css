@@ -86,3 +86,10 @@ div {
     padding-top: 120px;
     margin-top: 50px;
 }
+.help-link{
+   width: 128px;
+   height: 128px;
+}
+.content-source {
+   margin-top: 150px;
+}
